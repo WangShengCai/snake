@@ -1,0 +1,64 @@
+p{
+    text-align:center;
+}
+.content{
+    position:relative;
+    width:640px;
+    height:640px;
+    margin:0 auto 0;
+}
+.btn{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background-color:rgba(0,0,0,0.3);
+    z-index:2;
+}
+.btn button{
+    background:none;
+    outline:none;
+    border:none;
+    background-size:100% 100%;
+    cursor:pointer;
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+.startBtn button{
+    width:200px;
+    height:80px;
+    background-image:url(../images/startGame.png);
+}
+.pauseBtn{
+    display:none;
+}
+.pauseBtn button{
+    width:70px;
+    height:70px;
+    background-image:url(../images/start.png);
+}
+/* snakeWrap */
+#snakeWrap{
+    position:relative;
+    width:600px;
+    height:600px;
+    background:#225675;
+    border:20px solid #7dd9ff;
+}
+.snakeHead{
+    background-image:url(../images/snake.png);
+    background-size:cover;
+}
+.snakeBody{
+    background: #99dddd;;
+    border-radius:50%;
+}
+.food{
+    background-image:url(../images/food.png);
+    background-size:cover;
+}
